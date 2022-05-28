@@ -1,0 +1,95 @@
+.hero__inner{
+    padding: 230px 0 50px 0;
+}
+
+.hero__inner-title{
+    font-family: 'Bebas Neue';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 80px;
+    line-height: 80px;
+    text-align: center;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin: 0;
+    padding: 0;
+}
+
+.hero__inner-text{
+    font-family: 'Bebas Neue';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 2px;
+    color: #FFFFFF;
+    margin: 7px 0 25px 0;
+}
+
+.hero__inner-link{
+    display: block;
+    width: fit-content;
+    margin: 0 auto;
+    padding: 20px 17px;
+    background-image: linear-gradient(194.68deg, #FFB548 11.27%, #F3AF34 90.4%);
+    border-radius: 4px;
+    font-family: 'Open Sans';
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;
+    color: #1A1917;
+}
+
+.hero__inner-scrool{
+    position: relative;
+    display: block;
+    font-family: 'Open Sans';
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 22px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    background-color: transparent;
+    border: none;
+    padding: 5px;
+    cursor: pointer;
+    margin: 310px auto 0 auto;
+    
+    &::after{
+        content: "";
+        position: absolute;
+        bottom: -5px;
+        width: 25px;
+        height: 10px;
+        left: 28px;
+        background-image: url("../../images/scrool-down.svg");
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+}
+
+// -----> Responsive part
+
+@media only screen and (max-width: 600px) {
+    
+    .hero__inner-title{
+        font-size: 35px;
+        line-height: 33px;
+    }
+    
+    .hero__inner-text{
+        font-size: 18px;
+        line-height: 18px;
+        margin: 7px 0 15px 0;
+    }
+    
+    .hero__inner-link{
+        padding: 10px ;
+    }
+    
+    .hero__inner-scrool{
+        margin: 170px auto 0 auto;
+    }
+}

@@ -4,7 +4,7 @@
     background-size: cover;
     object-fit: cover;
     width: 100%;
-    height: 100vh;
+    padding-bottom: 50px;
 }
 
 .header__inner{
@@ -225,6 +225,8 @@
         border-bottom-right-radius: 40px;
         border-top-left-radius: 40px;
         transition: all .2s ease-in-out;
+        background: url("../../images/wrapper-1.png") no-repeat;
+        background-size: cover;
     }
 
     .header__nav-list--opened{
