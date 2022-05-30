@@ -1060,14 +1060,14 @@ template {
     line-height: 33px;
   }
   .features__wrapper1-btn--active::after {
-    height: 120px;
+    height: 115px;
   }
   .features__wrapper1-title {
     font-size: 21px;
     line-height: 21px;
   }
   .features__wrapper2-btn--active::after {
-    height: 120px;
+    height: 115px;
   }
   .features__wrapper2-title {
     font-size: 21px;
