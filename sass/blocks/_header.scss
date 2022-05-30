@@ -219,12 +219,12 @@
         position: absolute;
         flex-direction: column;
         right: 0;
-        top: -700px;
+        top: -300px;
         border: 1px solid #FFFFFF;
         padding: 40px 30px;
         border-bottom-right-radius: 40px;
         border-top-left-radius: 40px;
-        transition: all .2s ease-in-out;
+        transition: all .1s ease-in-out;
         background: url("../../images/wrapper-1.png") no-repeat;
         background-size: cover;
     }

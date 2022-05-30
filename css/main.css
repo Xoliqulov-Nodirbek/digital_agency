@@ -685,13 +685,13 @@ template {
         -ms-flex-direction: column;
             flex-direction: column;
     right: 0;
-    top: -700px;
+    top: -300px;
     border: 1px solid #FFFFFF;
     padding: 40px 30px;
     border-bottom-right-radius: 40px;
     border-top-left-radius: 40px;
-    -webkit-transition: all .2s ease-in-out;
-    transition: all .2s ease-in-out;
+    -webkit-transition: all .1s ease-in-out;
+    transition: all .1s ease-in-out;
     background: url("../../images/wrapper-1.png") no-repeat;
     background-size: cover;
   }
@@ -799,6 +799,286 @@ template {
   }
   .hero__inner-scrool {
     margin: 170px auto 0 auto;
+  }
+}
+
+.wrapper-2 {
+  background-image: url("../../images/wrapper-3.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 870px;
+}
+
+.features__inner {
+  max-width: 450px;
+  width: 100%;
+  display: block;
+  margin-left: auto;
+  padding: 160px 0 250px 0;
+}
+
+.features__strong {
+  font-family: 'Bebas Neue';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 24px;
+  letter-spacing: 2px;
+  color: #FFFFFF;
+}
+
+.features__title {
+  font-family: 'Bebas Neue';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 80px;
+  line-height: 80px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  margin: 8px 0 70px 0;
+}
+
+.features__wrapper1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.features__wrapper1-btn {
+  width: 20px;
+  height: 20px;
+  background-image: url("../../images/ellips.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-color: transparent;
+  border-radius: 50%;
+  border: none;
+  cursor: pointer;
+}
+
+.features__wrapper1-btn--active {
+  position: relative;
+  background-color: #FFFFFF;
+}
+
+.features__wrapper1-btn--active::after {
+  content: "";
+  position: absolute;
+  left: 9px;
+  width: 2px;
+  height: 123px;
+  background-color: #FFFFFF;
+}
+
+.features__wrapper1-title {
+  font-family: 'Bebas Neue';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 36px;
+  letter-spacing: 2px;
+  color: #FFB548;
+  margin: 0;
+  padding-left: 40px;
+}
+
+.features__wrapper1-text {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: justify;
+  color: #FFFFFF;
+  margin: 5px 0 25px 0;
+  padding-left: 60px;
+  opacity: 0;
+  height: 0;
+}
+
+.features__wrapper1-text--opened {
+  opacity: 1;
+  height: 100%;
+}
+
+.features__wrapper2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.features__wrapper2-btn {
+  width: 20px;
+  height: 20px;
+  background-image: url("../../images/ellips.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-color: transparent;
+  border-radius: 50%;
+  border: none;
+  cursor: pointer;
+}
+
+.features__wrapper2-btn--active {
+  position: relative;
+  background-color: #FFFFFF;
+}
+
+.features__wrapper2-btn--active::after {
+  content: "";
+  position: absolute;
+  left: 9px;
+  width: 2px;
+  height: 123px;
+  background-color: #FFFFFF;
+}
+
+.features__wrapper2-title {
+  font-family: 'Bebas Neue';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 36px;
+  letter-spacing: 2px;
+  color: #FFB548;
+  margin: 0;
+  padding-left: 40px;
+}
+
+.features__wrapper2-text {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: justify;
+  color: #FFFFFF;
+  margin: 5px 0 25px 0;
+  padding-left: 60px;
+  opacity: 0;
+  height: 0;
+}
+
+.features__wrapper2-text--opened {
+  opacity: 1;
+  height: 100%;
+}
+
+.features__wrapper3 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.features__wrapper3-btn {
+  width: 20px;
+  height: 20px;
+  background-image: url("../../images/ellips.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-color: transparent;
+  border-radius: 50%;
+  border: none;
+  cursor: pointer;
+}
+
+.features__wrapper3-btn--active {
+  position: relative;
+  background-color: #FFFFFF;
+}
+
+.features__wrapper3-btn--active::after {
+  content: "";
+  position: absolute;
+  left: 9px;
+  width: 2px;
+  height: 90px;
+  background-color: #FFFFFF;
+}
+
+.features__wrapper3-title {
+  font-family: 'Bebas Neue';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 36px;
+  letter-spacing: 2px;
+  color: #FFB548;
+  margin: 0;
+  padding-left: 40px;
+}
+
+.features__wrapper3-text {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: justify;
+  color: #FFFFFF;
+  margin: 5px 25px 0 0;
+  padding-left: 60px;
+  opacity: 0;
+  height: 0;
+}
+
+.features__wrapper3-text--opened {
+  opacity: 1;
+  height: 100%;
+}
+
+@media only screen and (max-width: 660px) {
+  .wrapper-2 {
+    background-image: url("../../images/wrapper-3-mobile.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: auto;
+  }
+  .features__inner {
+    max-width: 350px;
+    width: 100%;
+    display: block;
+    margin-left: auto;
+    padding: 92px 0 150px 0;
+  }
+  .features__strong {
+    font-size: 18px;
+    line-height: 18px;
+  }
+  .features__title {
+    font-size: 33px;
+    line-height: 33px;
+  }
+  .features__wrapper1-btn--active::after {
+    height: 130px;
+  }
+  .features__wrapper1-title {
+    font-size: 21px;
+    line-height: 21px;
+  }
+  .features__wrapper2-btn--active::after {
+    height: 130px;
+  }
+  .features__wrapper2-title {
+    font-size: 21px;
+    line-height: 21px;
+  }
+  .features__wrapper3-btn--active::after {
+    height: 110px;
+  }
+  .features__wrapper3-title {
+    font-size: 21px;
+    line-height: 21px;
   }
 }
 /*# sourceMappingURL=main.css.map */
