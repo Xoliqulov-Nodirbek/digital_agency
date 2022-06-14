@@ -1,8 +1,9 @@
 .wrapper-2{
-    background-image: url("../../images/wrapper-3.png");
+    background-image: url("../images/wrapper-3.png");
     background-repeat: no-repeat;
     background-size: cover;
     height: 870px;
+    margin-top: 100px;
 }
 
 .features__inner{
@@ -45,7 +46,7 @@
 .features__wrapper1-btn{
     width: 20px;
     height: 20px;
-    background-image: url("../../images/ellips.svg");
+    background-image: url("../images/ellips.svg");
     background-repeat: no-repeat;
     background-size: contain;
     background-color: transparent;
@@ -57,7 +58,7 @@
 .features__wrapper1-btn--active{
     position: relative;
     background-color: #FFFFFF;
-
+    
     &::after{
         content: "";
         position: absolute;
@@ -109,7 +110,7 @@
 .features__wrapper2-btn{
     width: 20px;
     height: 20px;
-    background-image: url("../../images/ellips.svg");
+    background-image: url("../images/ellips.svg");
     background-repeat: no-repeat;
     background-size: contain;
     background-color: transparent;
@@ -121,7 +122,7 @@
 .features__wrapper2-btn--active{
     position: relative;
     background-color: #FFFFFF;
-
+    
     &::after{
         content: "";
         position: absolute;
@@ -173,7 +174,7 @@
 .features__wrapper3-btn{
     width: 20px;
     height: 20px;
-    background-image: url("../../images/ellips.svg");
+    background-image: url("../images/ellips.svg");
     background-repeat: no-repeat;
     background-size: contain;
     background-color: transparent;
@@ -185,7 +186,7 @@
 .features__wrapper3-btn--active{
     position: relative;
     background-color: #FFFFFF;
-
+    
     &::after{
         content: "";
         position: absolute;
@@ -228,9 +229,9 @@
 }
 
 @media only screen and (max-width: 660px) {
-
+    
     .wrapper-2{
-        background-image: url("../../images/wrapper-3-mobile.png");
+        background-image: url("../images/wrapper-3-mobile.png");
         background-repeat: no-repeat;
         background-size: cover;
         height: auto;
@@ -243,7 +244,7 @@
         margin-left: auto;
         padding: 92px 0 150px 0;
     }
-
+    
     .features__strong{
         font-size: 18px;
         line-height: 18px;
@@ -253,47 +254,47 @@
         font-size: 33px;
         line-height: 33px;
     }
-
-    // -----> wrapper-1
-
-    .features__wrapper1-btn--active{
     
+    // -----> wrapper-1
+    
+    .features__wrapper1-btn--active{
+        
         &::after{
             height: 115px;
         }
     }
-
+    
     .features__wrapper1-title{
         font-size: 21px;
         line-height: 21px;
     }
-
-    // -----> wrapper-2
-
-    .features__wrapper2-btn--active{
     
+    // -----> wrapper-2
+    
+    .features__wrapper2-btn--active{
+        
         &::after{
             height: 115px;
         }
     }
-
+    
     .features__wrapper2-title{
         font-size: 21px;
         line-height: 21px;
     }
-
-    // -----> wrapper-3
-
-    .features__wrapper3-btn--active{
     
+    // -----> wrapper-3
+    
+    .features__wrapper3-btn--active{
+        
         &::after{
             height: 110px;
         }
     }
-
+    
     .features__wrapper3-title{
         font-size: 21px;
         line-height: 21px;
     }
-
+    
 }

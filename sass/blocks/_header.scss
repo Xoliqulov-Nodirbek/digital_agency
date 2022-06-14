@@ -1,5 +1,5 @@
 .wrapper-1{
-    background-image: url("../../images/wrapper-1.png");
+    background-image: url("../images/wrapper-1.png");
     background-repeat: no-repeat;
     background-size: cover;
     object-fit: cover;
@@ -20,7 +20,7 @@
     display: inline-block;
     width: 56px;
     height: 56px;
-    background-image: url("../../images/logo.svg");
+    background-image: url("../images/logo.svg");
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -121,7 +121,7 @@
         top: 10px;
         right: -10px;
         transform: rotate(-180deg);
-        background: url("../../images/select-before-img.svg") no-repeat;
+        background: url("../images/select-before-img.svg") no-repeat;
         background-size: cover;
         transition: all 0.2s ease;
     }
@@ -175,7 +175,7 @@
 .header-right__select-span{
     width: 10px;
     height: 10px;
-    background-image: url("../../images/ptichki.svg");
+    background-image: url("../images/ptichki.svg");
     background-repeat: no-repeat;
     background-size: contain;
     display: none;
@@ -196,7 +196,7 @@
     background-color: transparent;
     border: none;
     padding: 5px 10px;
-    background-image: url("../../images/menu.svg");
+    background-image: url("../images/menu.svg");
     background-repeat: no-repeat;
     background-size: cover;
     cursor: pointer;
@@ -225,7 +225,7 @@
         border-bottom-right-radius: 40px;
         border-top-left-radius: 40px;
         transition: all .1s ease-in-out;
-        background: url("../../images/wrapper-1.png") no-repeat;
+        background: url("../images/wrapper-1.png") no-repeat;
         background-size: cover;
     }
 
