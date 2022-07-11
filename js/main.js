@@ -10,7 +10,7 @@ const headerBtnMenu = document.querySelector(".header__menu");
 const btn1 = document.querySelector(".features__wrapper1-btn");
 const text1 = document.querySelector(".features__wrapper1-text");
 
-// -----> content-22
+// -----> content-2
 const btn2 = document.querySelector(".features__wrapper2-btn");
 const text2 = document.querySelector(".features__wrapper2-text");
 
