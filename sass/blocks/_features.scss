@@ -58,6 +58,7 @@
 .features__wrapper1-btn--active{
     position: relative;
     background-color: #FFFFFF;
+    z-index: 123;
     
     &::after{
         content: "";
@@ -122,6 +123,7 @@
 .features__wrapper2-btn--active{
     position: relative;
     background-color: #FFFFFF;
+    z-index: 123;
     
     &::after{
         content: "";
@@ -186,6 +188,7 @@
 .features__wrapper3-btn--active{
     position: relative;
     background-color: #FFFFFF;
+    z-index: 123;
     
     &::after{
         content: "";
