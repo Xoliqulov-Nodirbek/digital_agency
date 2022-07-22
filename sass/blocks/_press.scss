@@ -1,0 +1,251 @@
+.wrapper-5{
+    background-image: url("../../images/wrapper-5.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 150px 0;
+}
+
+.press__inner{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+// ----------> Press contents
+
+.press__content{
+    max-width: 438px;
+    width: 100%;
+}
+
+.press__content-strong{
+    font-family: 'Bebas Neue';
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 24px;
+    letter-spacing: 2px;
+    color: #FFFFFF;
+}
+
+.press__content-title{
+    font-family: 'Bebas Neue';
+    font-weight: 700;
+    font-size: 80px;
+    line-height: 80px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin: 8px 0 0;
+}
+
+.press__content-text{
+    font-family: 'Open Sans';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    color: #FFFFFF;
+    margin: 40px 0 50px 0;
+}
+
+.press__content-btn{
+    display: block;
+    width: fit-content;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;
+    color: #1A1917;
+    background-image: linear-gradient(194.68deg, #FFB548 11.27%, #F3AF34 90.4%);
+    border-radius: 4px;
+    padding: 18px 30px;
+}
+
+// ---------- > Press Cards
+
+.press__cards-item{
+    position: relative;
+    max-width: 452px;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.08);
+    border-radius: 10px;
+    padding: 26px 20px 20px 16px;
+    
+    &::before{
+        position: absolute;
+        content: "";
+        width: 70px;
+        height: 70px;
+        top: 12px;
+        background-color: #080808;
+        background-image: url("../../images/press-icon1.svg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
+        border-radius: 50%;
+    }
+}
+
+.press__cards-item:nth-child(2){
+    margin-left: -150px;
+    margin-right: 150px;
+    
+    &::before{
+        background-image: url("../../images/press-icon2.svg");
+    }
+}
+
+.press__cards-item:nth-child(3){
+    
+    &::before{
+        background-image: url("../../images/press-icon3.svg");
+    }
+}
+
+.press__cards-item:not(:first-child){
+    margin-top: 30px;
+}
+
+.press__cards-item-top{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding-left: 95px;
+}
+
+.press__cards-item-top--title{
+    font-family: 'Bebas Neue';
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 24px;
+    letter-spacing: 2px;
+    color: #FFB548;
+    margin: 0;
+}
+
+.press__cards-item-top--text{
+    font-family: 'Open Sans';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: justify;
+    color: #FFFFFF;
+    opacity: 0.5;
+    margin: 0;
+}
+
+.press__cards-item-top--link{
+    width: 18px;
+    height: 14px;
+    background-image: url("../../images/twitter.svg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.press__cards-item--block{
+    font-family: 'Open Sans';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    color: #FFFFFF;
+    margin: 20px 0 8px;
+}
+
+.press__cards-item--time{
+    font-family: 'Open Sans';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    color: #FFFFFF;
+    mix-blend-mode: normal;
+    opacity: 0.5;
+}
+
+// -----------> Responsive <-----------
+
+@media only screen and (max-width: 1070px) {
+    
+    .press__cards-item:nth-child(2){
+        margin-left: 0;
+        margin-right: 0;
+        
+        &::before{
+            background-image: url("../../images/press-icon2.svg");
+        }
+    }
+    
+}
+
+@media only screen and (max-width: 750px) {
+    
+    .wrapper-5{
+        background-image: url("../../images/wrapper-5-mobile.jpg");
+        padding: 40px 0 80px;
+    }
+    
+    .press__inner{
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+    }
+    
+    .press__content-strong{
+        font-size: 18px;
+        line-height: 18px;
+    }
+    
+    .press__content-title{
+        font-size: 33px;
+        line-height: 33px;
+    }
+    
+    .press__content-text{
+        font-size: 14px;
+        line-height: 16px;
+        margin: 20px 0 24px 0;
+    }
+    
+    .press__content-btn{
+        font-size: 14px;
+        line-height: 19px;
+        padding: 15px 25px;
+        margin: 0 auto;
+    }
+    
+    // ---------- > Press Cards
+    
+    .press__cards-item:nth-child(1){
+        margin-top: 50px;
+    }
+    
+    
+    .press__cards-item-top--title{
+        font-size: 21px;
+        line-height: 21px;
+    }
+    
+    .press__cards-item-top--text{
+        font-size: 14px;
+        line-height: 22px;
+    }
+    
+    .press__cards-item-top--link{
+        width: 18px;
+        height: 14px;
+        background-image: url("../../images/twitter.svg");
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
+    .press__cards-item--block{
+        font-size: 14px;
+        line-height: 19px;
+    }
+    
+    .press__cards-item--time{
+        font-size: 12px;
+        line-height: 16px;
+    }
+    
+}
