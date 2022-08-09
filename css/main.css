@@ -1569,9 +1569,6 @@ template {
     margin-left: 0;
     margin-right: 0;
   }
-  .press__cards-item:nth-child(2)::before {
-    background-image: url("../../images/press-icon2.svg");
-  }
 }
 
 @media only screen and (max-width: 750px) {
